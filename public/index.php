@@ -1,7 +1,7 @@
 <?php 
 define("ROOT", direname(__DIR__));
 
-require ROOT."/app/Autoload.php";
+require ROOT."/app/Autoloader.php";
 App\Autoloader::register();
 
 if(isset($_GET['p']))
